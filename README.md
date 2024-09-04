@@ -2,8 +2,11 @@
 
 Description. 
 The package Image Processing is used to:
-	- Combine images and show the result on image format or histogram format
-	- Transform images scales
+	
+- Combine images and show the result on image format or histogram format
+	
+
+- Transform images scales
 
 ## Installation
 
