@@ -10,8 +10,8 @@ with open("requirements.txt", "r")as file:
 
 
 setup(
-    name="image_processing",
-    version="0.0.1",
+    name="image_processing_brunsilvajc",
+    version="0.0.2",
     author="BrunSilva-JC",
     author_email="brunsilva.jc@gmail.com",
     description="package for processing images",

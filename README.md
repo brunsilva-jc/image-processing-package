@@ -13,7 +13,7 @@ The package Image Processing is used to:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install image_processing
+pip install image-processing-brunsilvajc==0.0.1
 ```
 
 ## Usage
