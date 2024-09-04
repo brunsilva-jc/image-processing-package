@@ -4,7 +4,7 @@ from skimage.exposure import match_histograms
 from skimage.metrics import structural_similarity
 
 def find_difference(image1, image2):
-    assert image1.shape == image2.shape, "Specify 2 images with de same shape."
+    assert image1.shape == image2.shape, "Specify 2 images with the same shape."
     gray_image1 = rgb2gray(image1)
     gray_image2 = rgb2gray(image2)
     (score, difference_image) = structural_similarity(gray_image1, gray_image2, full=True)
@@ -13,5 +13,5 @@ def find_difference(image1, image2):
     return normalized_difference_image
 
 def transfer_histogram(image1, image2):
-    matched_image = match_histograms(image1, image2, multichannel=True)
+    matched_image = match_histograms(image1, image2, channel_axis=-1)
     return matched_image
